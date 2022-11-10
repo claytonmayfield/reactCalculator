@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: plum;
 }
 
 .App-logo {
@@ -27,7 +28,32 @@
 .App-link {
   color: #61dafb;
 }
-
+#digits{
+display: flex;
+justify-content: center;
+}
+#digits1{
+  display: flex;
+  justify-content: center;
+  }
+  #digits2{
+    display: flex;
+    justify-content: center;
+    }
+    #digits3{
+      display: flex;
+      justify-content: center;
+      }
+#display{
+  margin-left: 665px;
+  background-color: black;
+  width: 200px;
+}
+#num{
+  margin-left: 665px;
+  width: 200px;
+  background-color: white;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
